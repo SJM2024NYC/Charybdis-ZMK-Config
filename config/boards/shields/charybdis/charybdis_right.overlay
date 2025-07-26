@@ -24,7 +24,7 @@
 		, <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		;
 
-	debounce-us = <7000>;
+	debounce-ms = <7>;
 };
 
 &pinctrl {
